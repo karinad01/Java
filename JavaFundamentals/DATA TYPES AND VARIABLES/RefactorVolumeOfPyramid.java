@@ -1,5 +1,4 @@
 package Lab;
-import java.sql.SQLOutput;
 import java.util.Scanner;
 public class RefactorVolumeOfPyramid {
     public static void main(String[] args) {
