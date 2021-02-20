@@ -1,5 +1,3 @@
-package Lab;
-
 import java.util.Random;
 
 public class Dice {
@@ -9,7 +7,10 @@ public class Dice {
         return sides;
     } //use this field
 
-    public void setSides(int number){
+    public void setSides(int number) {
+        if (number < 0) {
+            sides = 1;
+        }
         sides = number;
     } //set a new value to the field
 
