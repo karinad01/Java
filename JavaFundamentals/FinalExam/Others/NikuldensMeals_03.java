@@ -11,7 +11,7 @@ public class NikuldensMeals_03 {
 
         while (true) {
             String input = scan.nextLine();
-            if (input.equals("End"))
+            if (input.equals("Stop"))
                 break;
             String[] tokens = input.split("-");
             String toCheck = tokens[0];
