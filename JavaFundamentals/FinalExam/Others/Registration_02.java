@@ -9,7 +9,7 @@ public class Registration {
         Scanner sc = new Scanner(System.in);
 
         int n = Integer.parseInt(sc.nextLine());
-        Pattern pattern = Pattern.compile("^(U\\$)(?<username>[A-Z][a-z]{3,})\\1(P@\\$)(?<password>[A-Za-z]{5,}[0-9]+)\\3$");
+        Pattern pattern = Pattern.compile("^(U\\$)(?<username>[A-Z][a-z]{2,})\\1(P@\\$)(?<password>[A-Za-z]{5,}[0-9]+)\\3$");
         int sr = 0;
         for (int i = 0; i < n; i++) {
             Matcher matcher = pattern.matcher(sc.nextLine());
