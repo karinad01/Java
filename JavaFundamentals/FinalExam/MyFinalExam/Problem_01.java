@@ -2,7 +2,7 @@ package Exam;
 
 import java.util.Scanner;
 
-public class NikuldensCharity_01 {
+public class Problem_01 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         String message = scanner.nextLine();
@@ -27,7 +27,7 @@ public class NikuldensCharity_01 {
                         message = first + second;
                         System.out.println(message);
                     } else {
-                        System.out.println("Invalid indexes!");
+                        System.out.println("Invalid indices!");
                     }
                     break;
                 case "Make":
@@ -57,7 +57,7 @@ public class NikuldensCharity_01 {
                         }
                         System.out.println(sum);
                     } else {
-                        System.out.println("Invalid indexes!");
+                        System.out.println("Invalid indices!");
                     }
                     break;
             }
